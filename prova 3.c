@@ -4,7 +4,6 @@
 
 #define TAM 3
 
-// Definição correta da struct com typedef
 typedef struct {
     char nome[50];
     int cpf;
@@ -12,7 +11,6 @@ typedef struct {
     int qtdAcompanhante;
 } Hospede;
 
-// Função para limpar buffer de entrada (stdin)
 void limparBuffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
